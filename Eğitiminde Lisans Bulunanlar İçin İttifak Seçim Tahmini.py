@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 
 df = pd.read_csv("yonelimfinal.csv")
@@ -77,7 +76,7 @@ class Functions_Of_Predict:
     def get_answers(self):
 
         answer_list = []
-
+        print("For No press 0; for yes press 1")
         for recorder in range(0,10):
             answer = input(self.questions_list[recorder])
 
